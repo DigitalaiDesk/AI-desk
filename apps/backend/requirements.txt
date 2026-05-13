@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg[binary]
+httpx
+beautifulsoup4
+lxml
+langdetect
+sentence-transformers
+qdrant-client
+spacy
+gliner
+neo4j
+pytest
+pydantic-settings
