@@ -1,0 +1,8 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "AI-desk",
+  "version": "0.1.0",
+  "identifier": "com.aidesk.app",
+  "build": {"frontendDist": "../dist"},
+  "app": {"windows": [{"title": "AI-desk", "width": 1400, "height": 900}]}
+}
