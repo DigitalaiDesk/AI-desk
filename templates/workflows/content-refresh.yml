@@ -1,0 +1,13 @@
+name: Monthly Content Refresh
+trigger:
+  type: schedule
+  cron: "0 9 1 * *"
+stages:
+  - detect_decay_pages
+  - regenerate_sections
+  - optimize_seo_aeo_geo
+  - approval
+  - republish
+outputs:
+  - refreshed_articles
+  - performance_baseline

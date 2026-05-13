@@ -1,0 +1,13 @@
+name: Weekly SEO Audit
+trigger:
+  type: schedule
+  cron: "0 8 * * 1"
+stages:
+  - crawl_site
+  - identify_issues
+  - prioritize_actions
+  - assign_tasks
+  - review_and_approve
+outputs:
+  - audit_report
+  - prioritized_task_list
